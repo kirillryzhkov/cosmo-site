@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="shortcut icon" href="img/logo-removebg-preview1.png">
+    <title>CosmoCat</title>
+</head>
+
+<body>
+    <header class="top">
+        <nav>
+            <ul>
+                <a href="/">HOME</a>
+                <a href="/about">ABOUT</a>
+                <a href="/news">NEWS</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-sector">
+        <h2 class="reg-h2">Регистрация</h2>
+
+        <div class="forma">
+            <form class="register-container" action="/register" method="post">
+                <label for="username">Логин:</label>
+                <input type="text" name="username" id="username-reg">
+                <label for="password">Пароль:</label>
+                <input type="password" name="password" id="password-reg">
+                <label for="email">Почта:</label>
+                <input type="email" name="email" id="email-reg">
+                <label for="age">Возраст:</label>
+                <input type="number" name="age" id="age-reg">
+                <label for="star">Любимая звезда:</label>
+                <input type="text" name="star" id="star-reg">
+                <label for="like">Космо-приключения:</label>
+                <input type="text" name="like" id="like-reg"><br>
+
+                <input id="sub" type="submit" value="Регистрация"><br>
+
+                <label id="register" for="">Уже зарегестрированы?</label>
+                <a id="auth" href="/auth">Войти</a>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
